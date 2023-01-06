@@ -1,0 +1,108 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading Section */
+
+.big_heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.second_heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-image: radial-gradient(
+    circle 972.6px at 10% 20%,
+    rgba(243, 0, 75, 1) 0%,
+    rgba(255, 93, 75, 1) 90%
+  );
+}
+
+/* .container-fluid {
+    padding: 3% 15%;
+} */
+
+/* Navbar Section */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.3rem;
+}
+
+/* title image */
+
+.rotate {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.icon {
+  color: #fa2c4b;
+  margin-bottom: 0.5rem;
+}
+
+.icon:hover {
+  color: #ff624e;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #fa2c4b;
+}
+
+.testimonial-image {
+  width: 10%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #fa2c4b;
+}
+
+.press-logo {
+  width: 20%;
+}
+/* Call to Action */
+
+#cta {
+  background-color: #fa2c4b;
+}
+
+/* Media Queri */
+@media screen and (max-width: 993px) {
+  .title-text {
+    text-align: center;
+  }
+
+  .rotate {
+    width: 45%;
+    position: static;
+    transform: none;
+  }
+}
